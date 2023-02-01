@@ -13,5 +13,10 @@ body {
 
 .btn-dark {
     display: grid;
-    grid-area: 4/4/5/5;
+    grid-area: 3/3/4/4;
+}
+
+.btn-outline-dark {
+    display: grid;
+    grid-area: 2/2/2/3;
 }
