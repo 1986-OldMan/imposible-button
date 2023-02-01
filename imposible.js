@@ -2,6 +2,7 @@
 document.querySelector('.btn-dark').addEventListener('mouseover', moveButton);
 
 
+
 let position = 'right'
 
 function moveButton(button) {
@@ -10,17 +11,22 @@ function moveButton(button) {
 
     if (position === 'left') {
 
-        buttonHtml.style.gridArea = '5/4/5/5';
+        buttonHtml.style.gridArea = '3/3/4/4';
         position = 'right';
 
     } else if (position === 'right') {
 
-        buttonHtml.style.gridArea = '3/5/5/5';
+        buttonHtml.style.gridArea = '5/5/5/5';
         position = 'left';
 
     }
 
-    console.log('imposible button move')
+    document.getElementById("info").innerHTML = "Come on click on the button";
+
+
+    console.log('imposible button move');
+
+
 
 }
 
